@@ -1,5 +1,29 @@
-> "au Darthmouth College"			: Manque le mot College
-> "rivage de la crête"				: Manquant
-> "à Roger"							: Superflue
-> "du musée de Ninji Novgorod"		: Manquant
-> "au Collège de France"			: Mauvais scan (just "au collège de présent")
+[ ]		au Dartmouth College				Missing word "College"
+[X] 	aux États-Unis
+[X]		à l'université Stanford
+[ ] 	au MIT								Missing (get filtered because all-caps)
+[X]		à l'université Carnegie-Mellon
+[X]		à l'université d'Édimbourg
+[X]		en Europe
+[X]		en Chine
+[X]		au Japon
+[X]		En France
+[X]		en Égypte
+[ ]		rivages de la Crète					Missing
+[ ]		à Alexandrie
+!!!		à Roger								Superflu
+[X]		en France
+[X]		en Italie
+[X]		en Angleterre
+[ ] 	du musée de Nijni Novgorod			Missing
+[X]		en Russie
+[X]		en Californie
+[X]		à Paris
+[X]		de l'université Stanford
+[X]		En France
+[X]		En France
+[X]		à Toulouse
+[X]		à Chambéry
+!!!		au Sénat							Superflu
+[ ]		au Collège de France				Missing "de France"
+
