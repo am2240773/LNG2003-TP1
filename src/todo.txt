@@ -10,7 +10,7 @@
 [X]		En France
 [X]		en Égypte
 [ ]		rivages de la Crète					Missing
-[ ]		à Alexandrie
+[X]		à Alexandrie
 !!!		à Roger								Superflu
 [X]		en France
 [X]		en Italie
