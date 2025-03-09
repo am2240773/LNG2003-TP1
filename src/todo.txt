@@ -1,0 +1,5 @@
+> "au Darthmouth College"			: Manque le mot College
+> "rivage de la crête"				: Manquant
+> "à Roger"							: Superflue
+> "du musée de Ninji Novgorod"		: Manquant
+> "au Collège de France"			: Mauvais scan (just "au collège de présent")
