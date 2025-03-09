@@ -15,7 +15,7 @@
 [X]		en France
 [X]		en Italie
 [X]		en Angleterre
-[ ] 	du musée de Nijni Novgorod			Missing
+[ ] 	du musée de Nijni Novgorod			Missing : 
 [X]		en Russie
 [X]		en Californie
 [X]		à Paris
@@ -25,5 +25,5 @@
 [X]		à Toulouse
 [X]		à Chambéry
 !!!		au Sénat							Superflu
-[ ]		au Collège de France				Missing "de France"
+[X]		au Collège de France
 
