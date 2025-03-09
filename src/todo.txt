@@ -1,4 +1,4 @@
-[ ]		au Dartmouth College				Missing word "College"
+[X]		au Dartmouth College
 [X] 	aux États-Unis
 [X]		à l'université Stanford
 [ ] 	au MIT								Missing (get filtered because all-caps)
