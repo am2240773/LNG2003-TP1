@@ -1,3 +1,8 @@
+TODO : Avant remise
+	[ ] Tenter de gêrer la casse dans l'algo
+	[ ] Décrire algorithme finale dans le rapport
+	[ ] Calculer le taux de rappel et la précision
+
 [X]		au Dartmouth College
 [X] 	aux États-Unis
 [X]		à l'université Stanford
@@ -15,7 +20,7 @@
 [X]		en France
 [X]		en Italie
 [X]		en Angleterre
-[ ] 	du musée de Nijni Novgorod			Missing : 
+[ ] 	du musée de Nijni Novgorod			Missing : Novgorod
 [X]		en Russie
 [X]		en Californie
 [X]		à Paris
