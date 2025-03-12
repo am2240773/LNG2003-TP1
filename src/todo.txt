@@ -5,10 +5,10 @@ TODO : Avant remise
 
 [X]		au Dartmouth College
 [X] 	aux États-Unis
-[X]		à l'université Stanford
-[ ] 	au MIT								Missing (get filtered because all-caps)
-[X]		à l'université Carnegie-Mellon
-[X]		à l'université d'Édimbourg
+[ ]		à l'université Stanford
+[X] 	au MIT								Missing (get filtered because all-caps)
+[ ]		à l'université Carnegie-Mellon
+[ ]		à l'université d'Édimbourg
 [X]		en Europe
 [X]		en Chine
 [X]		au Japon
@@ -22,13 +22,21 @@ TODO : Avant remise
 [X]		en Angleterre
 [ ] 	du musée de Nijni Novgorod			Missing : Novgorod
 [X]		en Russie
+!!!		XVII
+!!!		XXI
 [X]		en Californie
 [X]		à Paris
-[X]		de l'université Stanford
+[ ]		de l'université Stanford
 [X]		En France
 [X]		En France
 [X]		à Toulouse
 [X]		à Chambéry
 !!!		au Sénat							Superflu
-[X]		au Collège de France
+[-]		au Collège de France
 
+['En', 'France']
+['En', 'France']
+['à', 'Toulouse.']
+['à', 'Chambéry']
+['au', 'Sénat']
+['au', 'Collège']
