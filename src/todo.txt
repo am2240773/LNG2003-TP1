@@ -34,9 +34,5 @@ TODO : Avant remise
 !!!		au Sénat							Superflu
 [-]		au Collège de France
 
-['En', 'France']
-['En', 'France']
-['à', 'Toulouse.']
-['à', 'Chambéry']
-['au', 'Sénat']
-['au', 'Collège']
+Taux précision	: 20/24 = 83.33
+Taux rappel		: 19/26 = 73.07
