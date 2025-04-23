@@ -3,7 +3,6 @@
 **** est un ====
 **** qui vise à ====
 **** est-il parfois appelé ====
-****, ==== ,/. commence par une majuscule
 
 ==== (****)
 ==== qui sera appelé par la suite " "
@@ -27,3 +26,6 @@ dit exclure les parenthèses style (NOM, 0000)
 
 
 abr. => abr_
+
+
+
