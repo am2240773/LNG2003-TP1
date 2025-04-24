@@ -19,4 +19,10 @@ for ph in phrase:
 
 
 # PATRON B : DEFINI est DEFINITION
+for ph in phrase:
+    res_regex = re.findall(r'\(?([\w]*)\)? est un (.*) qui', ph)
+    
+    for hit in res_regex:
+        if len(hit) > 0 :
+            print(str(hit[0]) + " est un " + str(hit[1]))
 
