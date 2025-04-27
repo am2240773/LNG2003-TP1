@@ -34,15 +34,18 @@ for ph in phrase:
         if len(hit) > 0 :
             print(str(hit[0]) + " : " + str(hit[1]))
 
-# PATRON à faire
-# qui vise à                                    3
-# parfois appelé | qui sera appelé              4 7
-# Maj word word (ALLCAPS)                       5 49 51
-# comporte                                      8
-# du nom d' / du nom de                         9 11
-# Name Name, word word,                         10
-# << >> (name)                                  12
-# Maj , ./,                                     16 17 18
-# ne sont qu'                                   30
-# il s'agit de                                  31 32 52
-# Maj est ...                                   48
+# PATRON D : Il s'agi... de DEFINITION
+for ph in phrase:
+    res_regex = re.findall(r'^Il s.agi(\w*) de (.*)[\.|,]', ph)
+    
+    for hit in res_regex:
+        if len(hit) > 0 :
+            print("Il s\'agi" + str(hit[0]) +  " de " + str(hit[1]))
+
+# PATRON E : Defintion sur plusieurs mots (DEFINI)
+for ph in phrase:
+    res_regex = re.findall(r'([A-Z]\w*\s(\w*\s)*)\(([A-Z0-9]*)\)', ph)
+    
+    for hit in res_regex:
+        if len(hit) > 0 :
+            print(str(hit[2]) + " : " + str(hit[0]))
