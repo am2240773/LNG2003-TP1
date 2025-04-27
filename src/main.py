@@ -28,7 +28,7 @@ for ph in phrase:
 
 # PATRON C : DEFINI : definition ,/.
 for ph in phrase:
-    res_regex = re.findall(r'([A-Z][\w|\s]*) : (.*)[.|,]', ph)
+    res_regex = re.findall(r'^([A-Z][\w|\s]*) : (.*)[.|,]', ph)
     
     for hit in res_regex:
         if len(hit) > 0 :
