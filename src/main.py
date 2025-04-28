@@ -11,7 +11,7 @@ for ph in phrase:
 
 # PATRON A : DEFINITION (abr. DEFINI)
 for ph in phrase:
-    res_regex = re.findall(r'(\b\w+\s\b\w+\s\b\w+\s\b\w+\s\b\w+\s)\(abr. ([A-Z]*)\)', ph)
+    res_regex = re.findall(r'(\b\w+\s\b\w+\s\b\w+\s\b\w+\s\b\w+\s)\(abr. ([A-Z]+)\)', ph)
 
     for hit in res_regex:
         if len(hit) > 0 :
@@ -20,7 +20,7 @@ for ph in phrase:
 
 # PATRON B : DEFINI est DEFINITION
 for ph in phrase:
-    res_regex = re.findall(r'\(?([\w]*)\)? est (un|la|le|les) (.*) qui', ph)
+    res_regex = re.findall(r'\(?([\w]*)\)? est (un|la|le|les) (.*) (qui )?[.|,]', ph)
     
     for hit in res_regex:
         if len(hit) > 0 :
