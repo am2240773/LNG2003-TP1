@@ -28,7 +28,8 @@ for ph in phrase:
 
 # PATRON C : DEFINI : definition ,/.
 for ph in phrase:
-    res_regex = re.findall(r'^([A-Z][\w|\s]*) : (.*)[.|,]', ph)
+    ph = re.sub('\n\n', '\n$\n', ph)
+    res_regex = re.findall(r'^([A-Z][\w\s]+) : (.+)[.|,]', ph, re.MULTILINE)
     
     for hit in res_regex:
         if len(hit) > 0 :
